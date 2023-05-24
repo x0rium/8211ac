@@ -42,40 +42,22 @@ Coffeee )
 Look at results `ls ./bin/targets/x86/64/`
 
 ```
-drwxr-xr-x  1 build build 4.0K May 24 01:28 .
-drwxr-xr-x  1 build build 4.0K May 24 00:36 ..
--rw-r--r--  1 build build 233K May 24 01:10 .config
-drwxr-xr-x  1 build build 4.0K May 24 00:46 .git
--rw-r--r--  1 build build    8 May 23 21:55 .gitattributes
-drwxr-xr-x  1 build build 4.0K May 23 21:55 .github
--rw-r--r--  1 build build  311 May 23 21:55 .gitignore
--rw-r--r--  1 build build  106 May 23 21:55 BSDmakefile
--rw-r--r--  1 build build  284 May 23 21:55 COPYING
--rw-r--r--  1 build build  668 May 23 21:55 Config.in
-drwxr-xr-x  2 build build 4.0K May 23 21:55 LICENSES
--rw-r--r--  1 build build 4.0K May 23 21:55 Makefile
--rw-r--r--  1 build build 3.6K May 23 21:55 README.md
-drwxr-xr-x  1 build build 4.0K May 24 01:23 bin
-drwxr-xr-x  6 build build 4.0K May 24 01:23 build_dir
-drwxr-xr-x  1 build build 4.0K May 23 21:55 config
-drwxr-xr-x  2 build build 4.0K May 24 01:25 dl
-drwxr-xr-x 10 build build 4.0K May 24 00:23 feeds
--rw-r--r--  1 build build  415 May 23 21:55 feeds.conf.default
-drwxr-xr-x  1 build build 4.0K May 23 21:55 include
--rw-r--r--  1 build build  176 May 24 01:28 key-build
--rw-r--r--  1 build build   92 May 24 01:28 key-build.pub
--rw-r--r--  1 build build  356 May 24 01:28 key-build.ucert
--rw-r--r--  1 build build  260 May 24 01:28 key-build.ucert.revoke
-drwxr-xr-x  1 build build 4.0K May 24 00:23 package
--rw-r--r--  1 build build  15K May 23 21:55 rules.mk
-drwxr-xr-x  1 build build 4.0K May 23 21:55 scripts
-drwxr-xr-x  1 build build 4.0K May 24 01:31 staging_dir
-drwxr-xr-x  1 build build 4.0K May 23 21:55 target
-drwxr-xr-x  1 build build  12K May 24 01:31 tmp
-drwxr-xr-x  1 build build 4.0K May 23 21:55 toolchain
-drwxr-xr-x  1 build build 4.0K May 23 21:55 tools
--rw-r--r--  1 build build   18 May 23 21:55 version
--rw-r--r--  1 build build   11 May 23 21:55 version.date
+drwxr-xr-x   4 x0rium  staff   128B 24 май 04:36 ..
+-rw-r--r--   1 x0rium  staff   944B 24 май 04:23 config.buildinfo
+-rw-r--r--   1 x0rium  staff   288B 24 май 04:23 feeds.buildinfo
+-rw-r--r--   1 x0rium  staff    12M 24 май 04:31 openwrt-x86-64-generic-ext4-combined-efi.img.gz
+-rw-r--r--   1 x0rium  staff    12M 24 май 04:31 openwrt-x86-64-generic-ext4-combined.img.gz
+-rw-r--r--   1 x0rium  staff   6,8M 24 май 04:31 openwrt-x86-64-generic-ext4-rootfs.img.gz
+-rw-r--r--   1 x0rium  staff   5,0M 24 май 04:31 openwrt-x86-64-generic-kernel.bin
+-rw-r--r--   1 x0rium  staff   6,7M 24 май 04:31 openwrt-x86-64-generic-rootfs.tar.gz
+-rw-r--r--   1 x0rium  staff    11M 24 май 04:31 openwrt-x86-64-generic-squashfs-combined-efi.img.gz
+-rw-r--r--   1 x0rium  staff    11M 24 май 04:31 openwrt-x86-64-generic-squashfs-combined.img.gz
+-rw-r--r--   1 x0rium  staff   5,4M 24 май 04:31 openwrt-x86-64-generic-squashfs-rootfs.img.gz
+-rw-r--r--   1 x0rium  staff   4,0K 24 май 04:31 openwrt-x86-64-generic.manifest
+drwxr-xr-x  85 x0rium  staff   2,7K 24 май 04:31 packages
+-rw-r--r--   1 x0rium  staff   2,4K 24 май 04:32 profiles.json
+-rw-r--r--   1 x0rium  staff   1,3K 24 май 04:32 sha256sums
+-rw-r--r--   1 x0rium  staff    18B 24 май 04:23 version.buildinfo
 ```
 
 to copy from container open new terminal tab and use `docker cp` command.
