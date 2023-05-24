@@ -78,3 +78,5 @@ If you want clear docker enviroment use `docker system prune` this command clean
 If make return error try use `-j1` and read this manual one more time or use `make clean` change config by command `make menuconfig`
 
 Good luck!
+
+Donations BTC:  3CL6LvEjTXhsa6TPt6qmtm4Rq7jrA7FYHD
