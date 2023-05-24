@@ -5,7 +5,9 @@ Drivers rtl8812au-ac with `hostapd` support from https://github.com/immortalwrt/
 ## Requirements
 
 - RAM >= 8 Gb
-- Docker
+- Docker (install docker-ce https://docs.docker.com/engine/install/)
+- config docker to use from Not root user ( https://docs.docker.com/engine/security/rootless/ ) 
+- !!!Attention!!! on Windows or MacOS change Docker VM daemon settings! RAM>=8Gb
 
 ## How to use
 
@@ -37,7 +39,7 @@ Answer on all questions "N"
 
 Coffeee ) 
 
-ls ./bin/targets/x86/64/
+Look at results `ls ./bin/targets/x86/64/`
 
 ```
 drwxr-xr-x  1 build build 4.0K May 24 01:28 .
@@ -77,7 +79,20 @@ drwxr-xr-x  1 build build 4.0K May 23 21:55 tools
 ```
 
 to copy from container open new terminal tab and use `docker cp` command.
-
 https://docs.docker.com/engine/reference/commandline/cp/
 
+execute `exit` in console
+
+in folder with `owrtbuild` you can find `target` directory with copy from our container.
+
 Congrats!
+
+## Troubles
+
+If you are exit from container `./owrtbuild attach`
+If want to clean all and to try one more time `./owrtbuild attach cleanup`
+If you want clear docker enviroment use `docker system prune` this command clean unsed things %)
+
+If make return error try use `-j1` and read this manual one more time or use `make clean` change config by command `make menuconfig`
+
+Good luck!
